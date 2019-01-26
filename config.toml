@@ -1,0 +1,6 @@
+baseURL = "https://nat-mcaleese.co.uk"
+languageCode = "en-uk"
+title = "My New Hugo Site"
+pygmentsCodeFences = true
+[params]
+  blogTitle = "Blog"

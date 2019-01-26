@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+{{ partial "head.html" . }}
+
+<body>
+  {{ partial "nav.html" (dict "TopTitle" .Site.Params.blogTitle) }}
+  
+  <content>
+    <p>
+      Likely ill-cited and unoriginal, but certainly not the opinion of any employer.
+    </p>
+    <ul class="list-unstyled">
+      {{ range .Data.Pages }}
+      {{ .Render "li" }}
+      {{ end}}
+    </ul>
+  </content>
+</body>
+
+</html>

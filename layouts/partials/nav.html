@@ -1,0 +1,24 @@
+{{ $root := "/" }}
+{{ $blog := "/blog" }}
+
+<div class="only-on-bigger-than-mobile">
+  <div class="nav">
+    <h1 class='nav-left'>{{ .TopTitle }}</h1>
+    <div class="nav-right">
+      <span class="nav-item"><a href="{{ $root }}">About Me</a></span>
+      <span class="nav-item"><a href="{{ $blog }}">Blog</a></span>
+    </div>
+  </div>
+  <hr>
+</div>
+<div class="mobile-only">
+  <div class="nav">
+    <h1 class='nav-left'>{{ .TopTitle }}</h1>
+  </div>
+  <hr>
+  <div class="mobile-nav-center">
+    <span class="nav-item"><a href="{{ $root }}">About Me</a></span>
+    <span class="nav-item"><a href="{{ $blog }}">Blog</a></span>
+  </div>
+  <hr>
+</div>
