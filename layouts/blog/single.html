@@ -11,7 +11,7 @@
   crossorigin="anonymous"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    renderMathInElement(document.body, {
+    renderMathInElement(document.getElementById("single-content"), {
       delimiters: [
         { left: "$$", right: "$$", display: true },
         { left: "\\[", right: "\\]", display: true },
@@ -24,7 +24,7 @@
 
 <body>
   {{ partial "nav.html" (dict "TopTitle" .Site.Params.blogTitle) }}
-  <content>
+  <content id="single-content">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
   </content>
