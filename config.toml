@@ -1,5 +1,6 @@
 
-baseURL = "https://nat-mcaleese.co.uk"
+# baseURL = "https://nat-mcaleese.co.uk"
+baseURL = "https://festive-spence-7d2cc9.netlify.com/"
 languageCode = "en-uk"
 title = "My New Hugo Site"
 pygmentsCodeFences = true
