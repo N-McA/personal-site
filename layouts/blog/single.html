@@ -22,12 +22,19 @@
   });
 </script>
 
+<style>
+  #single-content {
+    margin-bottom: 10rem;
+  }
+</style>
+
 <body>
   {{ partial "nav.html" (dict "TopTitle" .Site.Params.blogTitle) }}
-  <content id="single-content">
-    <h1>{{ .Title }}</h1>
+  <div id="single-content">
+    <h1>{{ .Title }} <small>{{ .Params.PostType }}</small></h1>
+    <h3><em>{{ .Params.SubTitle }}</em></h3>
     {{ .Content }}
-  </content>
+  </div>
 </body>
 
 </html>
