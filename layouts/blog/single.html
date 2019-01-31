@@ -26,12 +26,16 @@
   #single-content {
     margin-bottom: 10rem;
   }
+  .main-title {
+    font-size: 1.85rem;
+  }
 </style>
 
 <body>
   {{ partial "nav.html" (dict "TopTitle" .Site.Params.blogTitle) }}
   <div id="single-content">
-    <h1>{{ .Title }} <small>{{ .Params.PostType }}</small></h1>
+    <h1 class="main-title">{{ .Title }}</h1>
+    <code>{{ delimit .Params.tags ", " }}</code>
     <h3><em>{{ .Params.SubTitle }}</em></h3>
     {{ .Content }}
   </div>

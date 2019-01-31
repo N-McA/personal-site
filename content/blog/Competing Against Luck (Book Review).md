@@ -1,14 +1,13 @@
 ---
 title: "Competing Against Luck"
-posttype: "(Book Review)"
 subtitle: "Business, Logic and Margarine."
 date: 2019-01-30
 draft: false
 math: false
-
+tags: ["#book-reviews", "#business"]
 ---
 
-I found myself reading "Competing Against Luck" over the last few days. As opposed to a direct recommendation or any fine-grained research, I came across it slightly randomly (I believe from a hacker news comment).
+I found myself reading ["Competing Against Luck"](https://www.amazon.co.uk/Competing-Against-Luck-Innovation-Customer/dp/0062435612) over the last few days. As opposed to a direct recommendation or any fine-grained research, I came across it slightly randomly (I believe from a hacker news comment).
 
 The book presents one sensible-sounding framework for "innovation" (read: UX/product design and marketing) that I actually quite like -- it's common sense of the "hard-to-distil" kind, and I like the approach (outlined below). The problem, however, is the comically poor standard of evidence presented for the ideas. Some of the arguments are so weak as to call into question the merit of anything else in the book. While reading it, I repeatedly found myself thinking "if these stooges believe this, they could believe anything". 
 

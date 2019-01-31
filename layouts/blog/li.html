@@ -1,4 +1,12 @@
+<style>
+  li {
+    margin-bottom: 1rem;
+  }
+</style>
+
 <li>
-  <h5><a href="{{ .Permalink }}">{{ .Title}} {{ .Params.PostType }} </a>
-  <small> ({{ .Date.Format "January 2, 2006" }})</small></h5>
+  <a href="{{ .Permalink }}">{{ .Title}}</a>
+  <small> ({{ .Date.Format "January 2, 2006" }})</small>
+  <br>
+  <code>{{ delimit .Params.tags ", " }}</code>
 </li>

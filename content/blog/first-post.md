@@ -3,6 +3,7 @@ title: "Thoughts about bonus bonds"
 date: 2019-01-25
 draft: false
 math: true
+tags: []
 ---
 
 > Real stupidity beats artifial intelligence...
