@@ -1,33 +1,16 @@
 ---
-title: "Thoughts about bonus bonds"
+title: "Why write a blog?"
 date: 2019-01-25
 draft: false
 math: true
-tags: []
+tags: ["#lame", "#meta", "#short"]
 ---
 
-> Real stupidity beats artifial intelligence...
+So I previously thought that most blogging efforts were attempts at self-promotion; sacrifices to the alter of Profit and the eternal personal brand.
 
-```javascript
+Since then, I've been persuaded that writing is both
 
-const x = 3
-// Comments
+1. Quite enjoyable in it's own right.
+2. An excellent means to double check your thoughts on any particular topic.
 
-```
-
-This is not a blog post. It is merely an example of a blog post.
-Some words are in **bold**
-
-Sometimes there is $ math $.
-
-## This is a subsection.
-
-* Lists
-* of
-* bullets
-
-Can be interspersed with
-
-1. Numbered
-1. lists
-1. that
+And so I've decided to have a go at doing it regularly. We'll see how that goes.
