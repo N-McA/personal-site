@@ -12,13 +12,13 @@ I found myself reading "Competing Against Luck" over the last few days. As oppos
 
 The book presents one sensible-sounding framework for "innovation" (read: UX/product design and marketing) that I actually quite like -- it's common sense of the "hard-to-distil" kind, and I like the approach (outlined below). The problem, however, is the comically poor standard of evidence presented for the ideas. Some of the arguments are so weak as to call into question the merit of anything else in the book. While reading it, I repeatedly found myself thinking "if these stooges believe this, they could believe anything". 
 
-Perhaps amusingly, the "stooges" in question are vastly successful -- the principal author is [Clayton M. Christensen](https://en.wikipedia.org/wiki/Clayton_M._Christensen), who's a senior professor at Harvard Business school, has been on the cover of Forbes, and [invented the term disruptive innovation](https://en.wikipedia.org/wiki/Disruptive_innovation). Nonetheless, I think the errors in the book speak for themselves, an I'll go on to outline what specific epistemic mistakes the three authors make whilst describing some of the useful material.
+Perhaps amusingly, the "stooges" in question are vastly successful -- the principal author is [Clayton M. Christensen](https://en.wikipedia.org/wiki/Clayton_M._Christensen), who's a senior professor at Harvard Business school, has been on the cover of Forbes, and [invented the term disruptive innovation](https://en.wikipedia.org/wiki/Disruptive_innovation). Nonetheless, I think the problems with the book speak for themselves, and I'll go on to outline what specific epistemic mistakes the three authors make whilst describing some of the useful material.
 
 ## Jobs to be done
 
 The core idea of the book the "jobs to be done" framework. It suggests that you consider the goods and services produced by your business as potential "hires" that customers will make in specific circumstances to make "progress" in their lives. The framing is a bit weird, but I actually think the strange new use of language is an advantage. It encourages more focus, drawing the mind towards the customer actually wants and reducing the odds of distraction by internal vanity metrics (of both the institutional and personal kinds)[^0]. 
 
-The other key idea that's put front and centre by this worldview is segregating your market by the end use-case of the product ("job" in the lingo) as opposed to customer demographic. This is a great insight, and one that clearly seems to be working for pharmaceutical companies, that will [famously](https://www.bbc.co.uk/news/magazine-35091242) offer the same painkiller in different packaging for different use-cases (e.g. back v.s. womb pain). 
+The other key idea that's put front and centre by this worldview is segregating your market by the end use-case of the product ("job" in the lingo) as opposed to customer demographic. This is a great insight, and one that clearly seems to be working for pharmaceutical companies, that will [famously](https://www.bbc.co.uk/news/magazine-35091242) offer the same painkiller in different packaging for different use-cases (e.g. back pain v.s. headache). 
 
 Unfortunately, however, this does just seem to be a rehash of standard ideas from the UX literature; particularly notions from "human-centred design". [The design of everyday things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) is a classic in the area that goes much further in its analysis of how to assess user requirements for a specific task.
 
@@ -30,7 +30,7 @@ Nevertheless, the book does have several good examples of what it means to be cu
 
 There are several other equally interesting anecdotes, but overall I'd be lying if I said I liked the book.
 
-One of the annoying issues is a continuous effort to shove good existing ideas into the framework without any reference to the original. There are a bunch of examples throughout, but one of the silliest is that [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) is rebranded as “*The Fallacy of Active Versus Passive Data*" for no discernible reason.
+One of the more annoying aspects is a continuous effort to shove good existing ideas into the framework without any reference to the original. There are a bunch of examples throughout, but one of the silliest is that [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) is rebranded as “*The Fallacy of Active Versus Passive Data*" for no good reason.
 
 Apart from this, there is also rather little link between the anecdotes provided and the core thesis that the jobs-to-be-done framework will improve business performance. The worst supporting argument in the book is based on margarine. First Christensen outlines how he took a jobs-based worldview to present to the upper-management:
 
