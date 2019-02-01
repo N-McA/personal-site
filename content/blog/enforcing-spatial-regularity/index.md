@@ -60,6 +60,19 @@ This new tiling grid can then be fed into the scheme for generating images to en
 
 This form of tiling is pretty un-natural looking; however. I experimented with a few others. For example, hexagonal tilings can be accomplished by introducing three non-orthogonal spatial dimensions and tiling along those
 
+```python
+def non_ortho_grid(size, angles, span=[-1.0, 1]):
+    grid = get_simple_grid(size, span)
+    vs = np.stack([np.cos(angles), np.sin(angles)], axis=-1).astype(np.float32)
+    # tf does not broadcast .matmul
+    g1 = tf.reshape(grid, [-1, grid.shape[-1]])
+    r = tf.matmul(g1, tf.transpose(vs))
+    grid = tf.reshape(r, [size, size, len(angles)])
+    return grid
+```
+
+
+
 ![Hexagonal Tiled Flowers](hexagon-flowers.jpg)
 
 Because of how general the original framework is, you can extend beyond tilings. Another approach I experimented with was adding a time axis and using it to introduce the radial-flow style effects that are famous from music visualisers. You can even use the same tiling approach that works in space to ensure that the clip loops perfectly in time. Some of these came out pretty well!
